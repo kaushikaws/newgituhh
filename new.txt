@@ -1,0 +1,256 @@
+1. TELL ABT URSELF
+
+2. TEL ABT UR PROJECT WHICH U VE WORKED?? 2 YEARS 
+
+AWS:
+
+1. WHAT ARE THE TYPES OF EC2 MODEL ?
+
+On-Demand Instances: 
+In this model, based on the instances you choose, you pay for compute capacity per hour or per second (only for Linux Instances) and no upfront payments are needed. You can increase or decrease your compute capacity to meet the demands of your application and only pay for the instance you use.This model is suitable for developing/testing application with short-term or unpredictable workloads.On-Demand Instances is recommended for users who prefer low cost and flexible EC2 Instances without upfront payments or long-term commitments.
+Spot Instances: 
+Amazon EC2 Spot Instances is unused EC2 capacity in the AWS cloud. Spot Instances are available at up to a 90% discount compared to On-Demand prices. The Spot price of Amazon EC2 spot Instances fluctuates periodically based on supply and demand.It supports both per hour and per second (only for Linux Instances) billing schemes . Applications that have flexible start and end times and users with urgent computing needs for large scale dynamic workload can choose Amazon EC2 spot Instances.
+3.Reserved Instances: 
+Amazon EC2 Reserved Instances provide you with a discount up to 75% compared to On-Demand Instance pricing.It also provides capacity reservation when used in specific Availability Zone.For applications that have predictable workload, Reserved Instances can provide sufficient savings compared to On-Demand Instances.The predictability of usage ensures compute capacity is available when needed.Customers can commit to using EC2 over a 1- or 3-year term to reduce their total computing costs.
+Dedicated Hosts: 
+A Dedicated Host is a physical EC2 server dedicated for your use.Dedicated Hosts can help you reduce costs by allowing you to use your existing server-bound software licenses like Windows server, SQL server etc and also helps you to meet the compliance requirements .Customers who choose Dedicated Hosts have to pay the On-Demand price for every hour the host is active in the account.It supports only per-hour billing and does not support per-second billing scheme.
+
+
+2. WHAT TYPE OF EC2 INSTANCE U VE USED IN UR PROJECT
+
+3. SNAPSHOT VS VOLUME
+
+4. WHAT AND ALL INFO PRESENT IN UR BASIC AMI?
+
+5. HOW TO MOVE AMI FROM ONE REGION TO ANOTHER REGION ??
+
+6. HOW TO INCREASE VOLUME SIZE?
+
+ELB:
+
+1. WHAT ARE THE DIFFERENT TYPES OF ELB??
+
+2. IN WHICH SCENARION YOU WILL USE OR DECIDE UR ELB TYPES?
+
+3. ELB AND ITS LAYERS?
+
+4. LIFECYCLE HOOK POLICY IN ELB?
+
+5. IF ANY ISSUES IN ELB, WHERE YOU WILL GO AND CHECK ??
+
+6. WHAT IS DIFF BW HEALTH CHECKS IN ELB ....EC2 VS ELB??
+
+7. AUTOSCALING POLICY
+
+ROUTE 53:
+
+1.  WHAT ARE THE RECORDS SET AVAILABLE IN R53 AND FOR WT PURPOSE ULL CHOOSE THE RECORD TYPE
+
+2. WHAT ARE THE TYPES OF ROUTING POLICY AVAILABLE IN ROUTE 53?
+
+3. WHAT IS DIFF BETWEEN A VS CNAME RECORD
+
+
+IAM:
+
+1. ROLE VS POLICY
+
+2. HOW ULL MAINTAIN ACCESS KEY AND SECRET KEY
+
+3. WHAT IS INLINE POLICY IN IAM
+
+4. IAM CROSS ACCOUNT AUTHENTICATION ?
+
+
+S3:
+
+1. S3 POLICY
+
+2. S3 --- CROSS REGION REPLICATION
+
+VPC:
+
+
+1. VPC PEERING?
+
+2. ROUTING POLICY 
+
+3. CIDR RANGE
+
+4. PUBLIC SUBNET VS PRIVATE SUBNET
+
+5. VPC ENDPOINT ---USE
+
+6. TYPES OF IP AND WHAT TYPE OF IP RANGE WE ARE USING
+
+7. NACL VS SG
+
+8. VPC peering vs vpc transit gateway AND ITS ADVANTAGE
+
+RDS:
+
+1. AMAZON AURORA AND ADVANTAGE
+
+2. HOW YOU WILL MAINTAIN BACKUP OF RDS
+
+3. SUPPOSE UR DB ENDPOINT IS DOWN, HOW YOU WILL TROUBLESHOOT
+
+4. HOW YOU WILL GIVE ACCESS TO DATABASE ?
+
+
+CLOUDFORMATION:
+
+1. WHAT ARE THE RESOURCES U CREATED USING CFT
+
+2. WRITE ONE SAMPLE CFT TEMPLATE WHICH U VE CREATED
+
+
+GENERAL QNS:
+
+1. WHAT ARE THE SERVICES AVAILABLE IN AWS WHICH IS NOT REGION SPECIFIC
+
+2. CLOUDWATCH VS CLOUDTRIAL
+
+3. WHAT IS BLUE GREEN DEPLOYMENT? OR WHAT TYPE OF DEPLOYMENT STRATEGY UR USING IN UR PROJECT??
+
+
+
+DEVOPS:
+
+1. WHAT IS THE BRANCHING STRATEGY UR USING IN  UR PROJECT?
+
+2. GIT PULL VS GIT FETCH
+
+3. GIT STASH
+
+4. SUPPOSE IF UR DEPLOYMENT IS FAILED,HOW YOU WILL REVERT UR CHANGES
+
+5. HOW YOU WILL RESOLVE GIT MERGE CONFLICT
+
+
+6. Git tag
+7. Git pull vs git fetch vs git clone
+8.  What s pull request
+9. How will you confirm that you have updated code in u r local
+10. How ull decide which code shd be moved to production  if conflict occurs
+11.. Git vs SVN
+12. What is distributed versions control system
+13.How will you know in GIT if a branch has been already merged into master
+14. Git rebase VS git merge
+15. Git status vs git diff
+16. How to fix broken commit
+17. Feature branching in GIT
+18. You accidentally committed on the "master" branch instead of "feature/login". Describe the process of correcting this mistake
+19. How can you undo a commit that has already been pushed to a shared branch on a remote repository?
+20. You have accidentally deleted a branch. Is there any way to recover it and bring it back?
+21. what is git cherry pick?
+
+
+DOCKER INTERVIEW QNS:
+
+1. Docker file we give expose and we give -p option while running docker. What is difference?
+2. Docker container and VM - What is difference?
+3. Why should I go for docker in my project
+4. docker architecture
+5. docker kill, docker pause and docker stops
+6. CMD and Entry point - What is difference----
+7. What is difference between copy and add in docker file
+8. Difference between ENV and ARG in docker file.
+9. What is difference between run and cmd
+10. Why should i go for docker volume
+11. How to share docker data in multiple containers
+12. Do you have experience in writing docker file?
+13. Where will you push your docker image
+14. Docker attach
+15. How will u push docker image in docker hub
+16. How to add volumes to running container
+17. Can I limit the file size/CPU ultization for a docker in my machine
+18. Docker network difference/advantage - host, bridge and none
+19. Best practices for writing docker file
+20. How to communicate between 2 containers in different network.
+21. what is docker link and its advantages
+22. docker link vs depends_on
+23. what is virtualisation
+24. what is microservices
+25. what is difference bw -v and mount 
+26. how to remove only stopped containers 
+27. what is docker swarm
+orchestration
+kubernetes
+dockerswarm
+mesos 
+28. difference between docker swarm vs kubernetes
+29 .what is the orchestration container
+30. what is kubernetes
+31. how to tune ur docker file
+32. Multi stage builds in docker
+33. how you will confirm there is no security vulnerability in public image
+34. how to monitor docker container
+35. how u ll handle/store ur private image in your env
+36. how to set resource limit for ur container
+37.what is difference between bridge network and custom bridge network?
+
+
+jenkins:
+
+1. how ull configure master-slave in jenkins
+
+2. what plugins u ve used in ur project
+
+3. how you will take backup of ur jenkins configuration
+
+4. downstream and upstream in jenkins
+
+5. how you will give access to ur jenkins pipeline
+
+6. how you will notify to the developers if pipeline is stopped or any errors
+
+7. what is difference bw scripted vs declarative pipeline
+
+
+terraform:
+
+1. terraform backend
+
+2. terraform provisioners
+
+3. terraform providers
+
+4. how ull maintain the code of different environment in terraform
+
+5. terraform state file 
+
+6. terraform state file ---how you will maintain
+
+7. scenario qns
+
+8. how you will lock ur statefile 
+
+
+
+ansible:
+
+
+1. what type of mechanism ansible is following
+
+2. what and all modules u ve used in ur project
+
+3. ansible handlers and its purpose
+
+4. ansible template module
+
+5. ansible roles ?
+
+6. ansible galaxy and its purpose
+
+7. one sample yaml file 
+
+8. one playbook need to be executed in one particular machine
+
+9. one modules in the playbook need to be excuted in one particular machine
+
+10. loop mod
+
+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
+
+Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls
